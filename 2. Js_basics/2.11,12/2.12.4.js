@@ -1,11 +1,12 @@
 
-var a = prompt('enter the value of a', '')
+var a = prompt('enter the value of a', 0)
 
-var b = prompt('enter the value of b', '')
+var b = prompt('enter the value of b', 0)
 
-var result = (a + b)
+var result = +a + +b
 
 var message
+
 
 
 (result < 4) ? (message = 'few') : (message = 'lot')
