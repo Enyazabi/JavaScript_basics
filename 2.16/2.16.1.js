@@ -4,7 +4,7 @@ if (browser === 'IE') {
 
     alert ('Oh, shit!')
 
-} else if (browser === 'Chrome' || 'Ferifox' || 'Safari' || 'Opera') {
+} else if (browser === ('Chrome' || 'Ferifox' || 'Safari' || 'Opera')) {
 
     alert ('its okey')
 
